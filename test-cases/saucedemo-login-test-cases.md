@@ -95,7 +95,7 @@ Validation error message is displayed.
 
 *Expected Result:**
 - Error banner appears displaying: "Epic sadface: Password is required"
-- Username field is highlighted
+- Password field is highlighted
 - Two (X)s appear to the rightside of both fields
 - User stays on the login page
 
