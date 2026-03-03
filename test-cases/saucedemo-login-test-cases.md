@@ -60,3 +60,43 @@ Validation error message is displayed.
 
 **Expected Result:**
 Validation error message is displayed.
+
+
+---
+
+## TC-LOGIN-005
+**Title:** Login with empty username / password  
+**Precondition:** None  
+
+**Steps:**
+1. Navigate to login page
+2. Leave username field empty
+3. Leave password field empty
+4. Click "Login"
+
+*Expected Result:**
+- Error banner appears displaying: "Epic sadface: Username is required"
+- Username field is highlighted
+- Two (X)s appear to the rightside of both fields
+- User stays on the login page
+
+
+---
+
+## TC-LOGIN-006
+**Title:** Login with empty password  
+**Precondition:** None  
+
+**Steps:**
+1. Navigate to https://www.saucedemo.com/
+2. Enter username: standard_user
+3. Leave password field empty
+4. Click "Login"
+
+*Expected Result:**
+- Error banner appears displaying: "Epic sadface: Password is required"
+- Username field is highlighted
+- Two (X)s appear to the rightside of both fields
+- User stays on the login page
+
+
