@@ -1,58 +1,58 @@
-# QA Portfolio Summary
+# Manual QA Testing Portfolio
 
-## Overview
-This repository demonstrates hands-on manual QA testing practice across a full user flow, including login validation, product inventory, cart behavior, and checkout functionality.
-
-The goal of this portfolio is to showcase structured test case design, defect reporting, and exploratory testing skills for entry-level QA roles.
+This repository demonstrates hands-on manual testing practice across multiple web applications.  
+It includes structured test cases, bug reports, and exploratory testing notes created to simulate real QA workflows.
 
 ---
 
-## Application Tested
-**SauceDemo** (https://www.saucedemo.com/)
+## Applications Tested
+
+### SauceDemo
+https://www.saucedemo.com/
+
+Test areas covered:
+- Login validation
+- Inventory and sorting
+- Cart functionality
+- Checkout flow
+- UI state consistency
+
+Key finding:
+- Reset App State clears cart badge but does not reset item button state.
 
 ---
 
-## Areas Covered
+### The Internet (Herokuapp)
+https://the-internet.herokuapp.com/
 
-### 1. Login Validation Testing
-- Field validation (empty fields, invalid credentials)
-- Error message verification
-- UI validation behavior (field highlighting, error icons)
-- Observed validation inconsistencies
-
-### 2. Inventory & Sorting
-- Product count verification
-- Default sorting validation
-- Sort option verification
-- Alphabetical order validation
-
-### 3. Cart Functionality
-- Add/Remove item state changes
-- Cart badge increment/decrement
-- State persistence after refresh
-- UI inconsistency found using "Reset App State"
-
-### 4. Checkout Flow
-- Required field validation
-- End-to-end purchase completion
-- Confirmation page verification
-- Cart reset after order completion
+Test areas covered:
+- Login validation
+- Dropdown functionality
+- UI behavior and feedback banners
 
 ---
 
-## Defects Logged
+## Repository Structure
 
-### Reset App State UI Inconsistency
-- Cart badge resets
-- Item button state does not revert to "Add to cart"
-- Logged as a Medium severity UI state defect
+test-cases/  
+Contains structured manual test cases for each tested feature.
+
+bug-reports/  
+Documents defects or potential issues discovered during testing.
+
+exploratory-notes/  
+Observations recorded during exploratory testing.
+
+PORTFOLIO.md  
+High-level overview of testing coverage and skills demonstrated.
 
 ---
 
 ## Skills Demonstrated
+
 - Manual functional testing
+- Test case design
+- Bug reporting
 - Validation testing
-- State transition testing
-- Defect documentation
-- Exploratory testing observation
-- Clear test case structuring
+- Exploratory testing
+- UI behavior analysis
