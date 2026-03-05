@@ -53,7 +53,9 @@
 
 **Expected Result:**
 - User remains on /login
-- An error flash/banner message is displayed indicating the password is invalid
+- A red flash banner appears displaying the message: "Your password is invalid!"
+- Banner includes an error icon
+- Banner includes a close button allowing the message to be dismissed
 
 
 ---
