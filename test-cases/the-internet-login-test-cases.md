@@ -34,7 +34,9 @@
 
 **Expected Result:**
 - User remains on /login
-- An error flash/banner message is displayed indicating the username is invalid
+- A red flash banner appears displaying the message: "Your username is invalid!"
+- Banner includes an icon indicating error status
+- Banner includes a close button allowing the message to be dismissed
 
 
 ---
